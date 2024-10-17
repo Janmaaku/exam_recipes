@@ -33,7 +33,8 @@ const ModalComponent = (props) => {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative transform overflow-hidden rounded-xl bg-white text-left shadow-xl transition-all md:w-5/5 lg:w-2/3 xl:w-2/5  w-full mx-auto my-auto">
+              {/* md:w-5/5 lg:w-2/3 xl:w-2/4 2xl:w-1/3 */}
+              <Dialog.Panel className="relative transform overflow-hidden rounded-xl bg-white text-left shadow-xl transition-all md:w-[45rem] lg:w-[47rem]  w-full mx-auto my-auto">
                 {props.header}
                 {/*  modal header (end) */}
                 {/* cja: modal body (start) */}

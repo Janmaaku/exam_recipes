@@ -159,7 +159,7 @@ const LandingComponent = () => {
                   {recipeListDetails.title}
                 </h2>
 
-                <div className="md:flex justify-between items-center px-5 gap-10 pb-5">
+                <div className="md:flex justify-between items-center px-5 gap-7 pb-5">
                   <div className="md:w-1/2 lg:w-3/5">
                     <div className="aspect-h-3 aspect-w-2 overflow-hidden rounded-lg bg-gray-100 sm:col-span-4 lg:col-span-5">
                       <img
@@ -171,8 +171,8 @@ const LandingComponent = () => {
                   </div>
 
                   <div className="sm:col-span-8 lg:col-span-6">
+                    <h1 className="font-bold py-2">Ingredients</h1>
                     <div className="mb-5">
-                      <h1 className="font-bold py-2">Ingredients</h1>
                       <ul className=" text-sm text-gray-700 list-disc pl-5 w-full">
                         {recipeListDetails.ingredients.map((ins, index) => (
                           <li key={index}>{ins}</li> // Using index as the key
