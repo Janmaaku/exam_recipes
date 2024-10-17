@@ -35,13 +35,13 @@ const ModalComponent = (props) => {
             >
               <Dialog.Panel className="relative transform overflow-hidden rounded-xl bg-white text-left shadow-xl transition-all md:w-5/5 lg:w-2/3 xl:w-2/5  w-full mx-auto my-auto">
                 {props.header}
-                {/* cja: modal header (end) */}
+                {/*  modal header (end) */}
                 {/* cja: modal body (start) */}
                 {props.body}
-                {/* cja: modal body (end) */}
-                {/* cja: modal footer (start) */}
+                {/* modal body (end) */}
+                {/* modal footer (start) */}
                 {props.footer}
-                {/* cja: modal footer (end) */}
+                {/* modal footer (end) */}
               </Dialog.Panel>
             </Transition.Child>
           </div>
